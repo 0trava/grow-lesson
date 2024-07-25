@@ -13,7 +13,38 @@
 
 html, body {
     height: 100%;
-    background-color: #2B474B ;
+    background-color: #2B474B;
+    color: var(--white-color);
+}
+
+
+@font-face {
+    font-family: montserrat-g;
+    src: url(../assets/fonts/Montserrat-Regular.woff2);
+}
+
+@font-face {
+    font-family: montserrat-g;
+    src: url(../assets/fonts/Montserrat-Bold.woff2);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: montserrat-g;
+    src: url(../assets/fonts/Montserrat-Black.woff2);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: montserrat-g;
+    src: url(../assets/fonts/Montserrat-SemiBold.woff2);
+    font-weight: 600;
+}
+
+
+body {
+    font-size: 16px;
+    font-family: montserrat-g;
 }
 
 /* Slider */
@@ -47,3 +78,33 @@ html, body {
     inset: 0;
 }
 
+/* TOP Line */
+
+.top-line {
+    padding: 3.2em 0;
+}
+
+.logo {
+    display: block;
+}
+
+
+.logo img {
+    display: block;
+    width: 15.5em;
+}
+
+.main-menu li{
+ list-style: none;
+ display: inline-block;
+}
+
+.main-menu li > * {
+    color: var(--gray-color);
+}
+
+.button {
+    padding: 1em 2em;
+    color: var(--white-color);
+    background-color: var(--green-color);
+}
