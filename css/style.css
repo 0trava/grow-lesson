@@ -1,3 +1,9 @@
+@import '../css/vars.css';
+@import '../css/grid.css';
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -33,5 +39,11 @@ html, body {
 
 .slider__item:not(.swiper-slide-active) {
     transform: scale(1)!important;
+}
+
+.slider-ui {
+    position: absolute;
+    z-index: 10;
+    inset: 0;
 }
 
