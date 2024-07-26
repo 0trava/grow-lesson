@@ -4,6 +4,7 @@
     --green-color: #95DE1D;
 
     --index: calc(1vw + 1vh);
+    --transition: ease-in-out;
 
 
 }

@@ -181,17 +181,18 @@ body {
     height: 100%;
 }
 
-.header-content {
+.header-content{
     flex: 1;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1;
+    flex-direction: column;
 }
 
-.header-content__slider {
-    position: absolute;
+.header-content__slide {
+    /* position: absolute; */
 }
 
 .header-content h1 {
@@ -223,4 +224,5 @@ body {
     position: relative;
     margin-left: calc(var(--index) * -2.65);
     right: calc(var(--index) * -2.65);
+    opacity: 0;
 }
