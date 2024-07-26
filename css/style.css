@@ -199,3 +199,28 @@ body {
     text-transform: uppercase;
     font-weight: 900;
 }
+
+.header-content p {
+    max-width: 560px;
+    font-weight: 600;
+    line-height: 1.4;
+    display: inline-block;
+
+}
+
+.header-bottom {
+    min-height: 120px;
+}
+
+.header-content__info {
+    top: -18px;
+    position: relative;
+    opacity: 0;
+}
+
+.letters .letter {
+    text-shadow: 25px 0 35px rgba(0 0 0 / .4);
+    position: relative;
+    margin-left: calc(var(--index) * -2.65);
+    right: calc(var(--index) * -2.65);
+}
