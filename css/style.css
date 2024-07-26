@@ -1,3 +1,4 @@
+
 @import '../css/vars.css';
 @import '../css/grid.css';
 
@@ -161,4 +162,12 @@ body {
 
 .button:hover, .button:focus {
     background-color: var(--green-color);
+}
+
+/* Button  */
+
+.submenu {
+    --anim-menu-btn-color: var(--gray-color);
+    --anim-menu-btn-gap: .195em;
+    --anim-menu-btn-width: 1.08em;
 }

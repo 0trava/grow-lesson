@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grow 1.13</title>
+    <title>Grow</title>
 
     <!-- Swiper - важлива послідовність  -->
     <link rel="stylesheet" href="./assets/libs/swiper/swiper-bundle.min.css">
@@ -13,7 +13,7 @@
     
     <!-- Button library -->
      <link rel="stylesheet" href="./assets/libs/btn/anim-menu-btn.css">
-     <script src="./assets/libs/btn/anim-menu-btn.min.js"></script>
+     <script src="./assets/libs/btn/anim-menu-btn.min.js" defer></script>
 
      <!-- Styles & JS -->
     <link rel="stylesheet" href="./css/style.css">
@@ -48,9 +48,11 @@
                             </nav>
                             <a href="#" class="button button--top">Plant now</a>
                         </div>
-
+                        <!-- Button -->
                         <div class="col col--center">
-                            <button class="submenu">Button</button>
+                            <button class="submenu anim-menu-btn">
+                                <i class="anim-menu-btn__icon anim-menu-btn__icon--close"></i>
+                            </button>
                         </div>
 
 
