@@ -164,6 +164,11 @@ body {
     background-color: var(--green-color);
 }
 
+.button--main {
+    margin-top: 3em;
+    padding: 1.6em 3.5em;
+}
+
 /* Button  */
 
 .submenu {
@@ -252,4 +257,14 @@ body {
 .header-content__slide:has(* + .active .header-content__info), 
 .header-content__slide.active + * .header-content__info{
     top: 18em;
+}
+
+/* Pointer */
+
+.slide-ui {
+    pointer-events: none;
+}
+
+.logo, .main-menu, .button, .submenu {
+    pointer-events: auto ;
 }
