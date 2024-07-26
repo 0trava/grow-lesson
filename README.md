@@ -10,6 +10,13 @@ Resources
 Tutorial Link: [Creating a Beautiful Website with Header Animation](https://www.youtube.com/watch?v=I4NdTuDfJBk)
 Feel free to explore the code, and use it as a reference for your own projects. Happy coding!
 
-![image](https://github.com/user-attachments/assets/3236970c-e3a0-4ce8-8185-bc29a842b58c)
+![image](https://github.com/user-attachments/assets/537f0208-e50d-4cda-b7d9-d028eb745ed6)
+
+![image](https://github.com/user-attachments/assets/93b475a3-60a3-4545-b47d-aa75cedaf0f2)
+
+![image](https://github.com/user-attachments/assets/e01659f9-1f1d-410d-92c6-a2398361e287)
+
+
+
 
 
