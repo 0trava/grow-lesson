@@ -138,6 +138,21 @@ body {
     visibility: visible;
 }
 
+.anim-menu-btn {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .main-menu {
+        display: none;
+    }
+
+    .anim-menu-btn {
+        display: flex;
+    }
+    
+}
+
 /* BUTTON */
 
 .button {
