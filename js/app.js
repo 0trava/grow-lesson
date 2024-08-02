@@ -1,5 +1,6 @@
 const swiper = new Swiper('.swiper', {
      mousewheel: true,
+     allowTouchMove: true,
      direction: 'vertical',
      speed: 1700,
      parallax: true
