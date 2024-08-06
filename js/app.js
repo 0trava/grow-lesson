@@ -1,16 +1,9 @@
-import Swiper, { Mousewheel } from 'swiper';
-Swiper.use([Mousewheel]);
-
 const swiper = new Swiper('.swiper', {
-      direction: 'vertical',
-      speed: 1700,
-      parallax: true,
-      mousewheel: {
-        invert: false, // Измените это значение, если необходимо
-        releaseOnEdges: true, // Параметр для активации прокрутки на краях
-      },
-      allowTouchMove: true,
-  });
+	mousewheel: true,
+	direction: 'vertical',
+	speed: 1700,
+	parallax: true
+})
 
   swiper.on('slideChange', function() {
    document.querySelectorAll('.header-content__slide').forEach(function(e, i) {
