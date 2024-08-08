@@ -218,6 +218,7 @@ body {
     --anim-menu-btn-color: var(--gray-color);
     --anim-menu-btn-gap: .195em;
     --anim-menu-btn-width: 1.08em;
+
 }
 
 
@@ -311,3 +312,64 @@ body {
 .logo, .main-menu, .button, .submenu {
     pointer-events: auto ;
 }
+
+/* MODAL MENU */
+
+.modal-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a2425c7;
+    z-index: 5;
+
+    display: flex;
+
+}
+
+.modal-menu .col--center {
+    z-index: 100;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+
+}
+
+.modal-menu .main-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.modal-menu ul {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.modal-menu a {
+    font-size: calc(var(--index) * 2.95);
+}
+
+/* OPEN - CLOSE */
+
+.modal-menu {
+    display: none; /* Скрываем меню по умолчанию */
+    /* Другие стили модального окна */
+}
+
+.modal-menu--open {
+    display: flex; /* Показываем меню, когда оно открыто */
+}
+
+.anim-menu-hide {
+    opacity: 0;
+}
+
+
+
