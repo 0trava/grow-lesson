@@ -142,7 +142,7 @@ body {
     display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .main-menu {
         display: none;
     }
@@ -150,6 +150,34 @@ body {
     .anim-menu-btn {
         display: flex;
     }
+    
+}
+
+
+@media (max-width: 580px) {
+    .button--top {
+        display: none;
+    }
+
+    .logo img {
+        display: block;
+        width: 12.5em;
+    }
+
+    .header-content p {
+        max-width: 280px;
+        font-size: 0.9em;
+    }
+
+    .header-content__slide {
+        width: 90vw;
+    }
+
+    .header-content .letter {
+        font-size: calc(var(--index) * 8.95);
+
+    }
+
     
 }
 
